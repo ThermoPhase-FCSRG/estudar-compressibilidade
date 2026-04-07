@@ -30,5 +30,6 @@ plt.ylabel("Z")
 plt.title("Comparação do Fator de Compressibilidade")
 plt.grid(True)
 plt.legend()
-
+# salvar figura
+plt.savefig("figures/z_comparacao.png", dpi=300)
 plt.show()

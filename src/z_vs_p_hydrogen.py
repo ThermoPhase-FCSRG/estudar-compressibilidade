@@ -35,4 +35,7 @@ plt.title("Fator de Compressibilidade do Hidrogênio")
 plt.grid(True)
 plt.legend()
 
+
+# salvar figura
+plt.savefig("figures/z_vs_p_hydrogen.png", dpi=300)
 plt.show()

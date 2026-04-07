@@ -39,4 +39,6 @@ plt.title("Z(p) para Hidrogênio a 50°C")
 plt.grid(True)
 plt.legend()
 
+# salvar figura
+plt.savefig("figures/z_vs_p_50C.png", dpi=300)
 plt.show()
